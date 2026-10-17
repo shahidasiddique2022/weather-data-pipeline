@@ -13,9 +13,10 @@ def create_folders():
      "src",
      "database"
   ]
-for folder in folders:
-       os.makedirs(folder, exist_ok=True)
-       print(f"[OK] Folder ready: {folder}")
+   for folder in folders:
+        os.makedirs(folder, exist_ok=True)
+        print(f"[OK] Folder ready: {folder}")
+
 def show_structure():
       for root, dirs, files in os.walk("."):
        print(root)
@@ -27,6 +28,7 @@ def main():
      create_folders()
      print("\nProject structure:")
      show_structure()
-print("\nSetup completed successfully.")
+     print("\nSetup completed successfully.")
+
 if __name__ == "__main__":
     main()
