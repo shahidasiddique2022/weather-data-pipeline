@@ -22,5 +22,5 @@ Lab 5: Loading Data into a SQL Database
 Lab 6: Logging 
 Lab 7: Config Files 
 Lab 8: Pipeline Runner ( mini Aiflow DAG)
-Lab 9: Scheduling  Pipeline
+Lab 9: Scheduling  Pipeline 
 Conclusion: Future dashboards + final thoughts
