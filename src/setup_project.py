@@ -1,4 +1,4 @@
-import os --helps you create folders and navigate the file system.
+import os #helps you create folders and navigate the file system.
 from datetime import datetime
 def create_folders():
 folders = [
